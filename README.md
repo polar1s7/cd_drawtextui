@@ -1,3 +1,8 @@
+
+# ADDED A COLOR OPTION
+# ADDED A COLOR OPTION
+# ADDED A COLOR OPTION
+
 # INSTALLATION GUIDE
 **1.** Clone the repository or Code > Download zip
  
