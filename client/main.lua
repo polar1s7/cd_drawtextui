@@ -1,8 +1,9 @@
 RegisterNetEvent('cd_drawtextui:ShowUI')
-AddEventHandler('cd_drawtextui:ShowUI', function(action, text)
+AddEventHandler('cd_drawtextui:ShowUI', function(action, text, color)
 	SendNUIMessage({
 		action = action,
 		text = text,
+		color = color
 	})
 end)
 

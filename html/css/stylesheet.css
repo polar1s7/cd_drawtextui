@@ -5,6 +5,11 @@ html, body{
     padding:0;
     overflow-x:hidden;
 }
+
+:root {
+    --selection-background: #0000FF;
+}
+
 @keyframes fadeIn {
     0% {opacity:0; top:60%}
     50%{top:51%}
@@ -31,7 +36,7 @@ html, body{
 }
 #box{
     width:100%;
-    background: linear-gradient(180deg, rgb(0, 153, 255) 0%, rgb(50, 173, 255) 100%);
+    background: var(--selection-background);
     border-radius:5px;
     
 }
@@ -43,7 +48,7 @@ html, body{
 	width: 0;
 	height: 0;
 	border: 8px solid transparent;
-	border-right-color: rgb(20, 143, 225);
+	border-right-color:var(--selection-background);
 	border-left: 0;
 	margin-top: -8px;
 	margin-left: -8px;
